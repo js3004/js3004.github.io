@@ -21,9 +21,10 @@ body {
 }
 
 h1 {
-    color: #395C09;
+    color: #55811A;
     text-align: center;
     margin: 20px;
+    font-size: 49px;
 }
 
 .container {
@@ -38,11 +39,12 @@ h1 {
 }
 
 .column {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     min-height: 680px;
     border-radius: 5px;
-    background: linear-gradient(to top, rgba(94, 141, 29, 0.6), rgba(162, 198, 111, 0.1));
+    background: #94C650;
+    box-shadow: inset  2px 20px 2px -10px #ffffff;
     font-size: 0;
 }
 
@@ -63,7 +65,7 @@ button {
     background: #5E8D1D;
     background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
     border-radius: 5px;
-    box-shadow: inset 0px 1px 0px #94C650, 0px 5px 0px 0px #395C09, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #94C650, 0px 5px 0px 0px #395C09;
 }
 
 button:active {
